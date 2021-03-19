@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Text Quest</string>
+    <string name="final_text">Ваш баланс 0.</string>
+    <string name="final_text2">Игра окончена.</string>
+</resources>

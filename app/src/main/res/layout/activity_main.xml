@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Balance"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/balance_text"
+            android:layout_width="94dp"
+            android:layout_height="34dp"
+            android:text="Баланс: "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Баланс"
+            android:textColor="#B9000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Situation"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="94dp"
+            android:layout_height="33dp"
+            android:text="Ситуация: "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Заголовок ситуации"
+            android:textColor="#B9000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="94dp"
+            android:layout_height="32dp"
+            android:text="Описание:"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:text="Описание ситуации"
+            android:textColor="#B9000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="175sp"
+            android:textColor="#2B2B2B"
+            android:textColorHighlight="#FFFFFF"
+            app:backgroundTint="#665589BD" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="175sp"
+            android:textColor="#2B2B2B"
+            android:textColorHighlight="#FFFFFF"
+            app:backgroundTint="#665589BD" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="175sp"
+            android:textColor="#2B2B2B"
+            android:textColorHighlight="#FFFFFF"
+            app:backgroundTint="#665589BD" />
+
+    </LinearLayout>
+</LinearLayout>
